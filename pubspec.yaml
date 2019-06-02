@@ -1,8 +1,6 @@
 name: dart_tests
 description: A sample command-line application.
 # version: 1.0.0
-# homepage: https://www.example.com
-# author: Kristiyan <komapeb@gmail.com>
 
 environment:
   sdk: '>=2.2.0 <3.0.0'
