@@ -45,6 +45,6 @@ main(List<String> arguments) {
   print("ADDED: $addedItems");
   print("REMOVED: $removedItems");
 
-  // Here you could do AnimatedList.remove(removedItems)
+  // You could do AnimatedList.remove(removedItems)
   // and AnimatedList.add(addedItems)
 }
