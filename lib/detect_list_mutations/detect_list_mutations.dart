@@ -1,5 +1,7 @@
 import 'package:meta/meta.dart';
 
+/// Compares which items have been removed or added when transitioning
+/// from l1 -> l2
 @immutable
 class ListMutation {
   final List added;
