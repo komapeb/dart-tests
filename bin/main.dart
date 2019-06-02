@@ -3,7 +3,6 @@ import 'package:dart_tests/detect_list_mutations/data/sample_data.dart'
     as sample_data;
 
 main(List<String> arguments) {
-  // class
   var mutation = ListMutation(
     sample_data.currentState.items,
     sample_data.nextState.items,
