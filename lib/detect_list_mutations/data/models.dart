@@ -15,17 +15,5 @@ class DataItem extends Equatable {
 class AppState extends Equatable {
   final List<DataItem> items;
 
-  // these are just for example, not actually used
-  final int someOtherProp;
-  final String otherState;
-
-  AppState(
-    this.items, [
-    this.someOtherProp,
-    this.otherState,
-  ]) : super([
-          items,
-          someOtherProp,
-          otherState,
-        ]);
+  AppState(this.items) : super([items]);
 }
