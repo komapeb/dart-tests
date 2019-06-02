@@ -2,6 +2,7 @@ import 'package:meta/meta.dart';
 
 /// Compares which items have been removed or added when transitioning
 /// from l1 -> l2
+/// You could also write a function to track the unchanged
 @immutable
 class ListMutation {
   final List added;

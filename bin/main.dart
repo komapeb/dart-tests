@@ -9,6 +9,7 @@ main(List<String> arguments) {
   );
   print("CURRENT STATE: ${sample_data.currentState.items}");
   print("NEXT STATE: ${sample_data.nextState.items}");
-  print("ADDED TO CURRENT STATE: ${mutation.added}");
-  print("REMOVED FROM CURRENT STATE: ${mutation.removed}");
+
+  print("ADDED ITEMS: ${mutation.added}");
+  print("REMOVED ITEMS: ${mutation.removed}");
 }
